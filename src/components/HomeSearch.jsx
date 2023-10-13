@@ -40,6 +40,7 @@ export default function HomeSearch() {
           className="flex-grow focus:outline-none"
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          placeholder="Search for Everything..."
         />
         <BsFillMicFill className="text-lg" />
       </form>

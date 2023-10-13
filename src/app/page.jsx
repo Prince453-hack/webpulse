@@ -7,7 +7,13 @@ export default function Home() {
     <>
       <HomeHeaders />
       <div className="flex flex-col items-center mt-28">
-        <Image width={500} height={200} src="/123.png" />
+        <Image
+          width={500}
+          height={200}
+          src="/123.png"
+          alt="WebPulse"
+          priority
+        />
         <HomeSearch />
       </div>
     </>
