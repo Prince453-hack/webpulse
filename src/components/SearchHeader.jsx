@@ -10,7 +10,7 @@ export default function SearchHeader() {
     <header className="sticky top-0 bg-white">
       <div className="flex w-full p-6 items-center justify-between">
         <Link href="/">
-          <Image src="/123.png" width={120} height={40} alt="WebPulse" />
+          <Image src="/123.png" width={200} height={60} alt="WebPulse" />
         </Link>
         <div className="flex-1">
           <SearchBox />
