@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header-icon {
+    @apply bg-transparent hover:bg-gray-200 p-2 rounded-full text-4xl cursor-pointer;
+  }
+}
