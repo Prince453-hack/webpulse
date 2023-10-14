@@ -1,3 +1,3 @@
-export default function ImageSearchPage() {
-  return <div>Images</div>;
+export default function Image() {
+  return <div>Image</div>;
 }

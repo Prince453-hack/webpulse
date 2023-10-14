@@ -10,13 +10,11 @@ export default function SearchHeaderOptions() {
   const searchTerm = searchParams.get("searchTerm");
 
   function selectTab(tab) {
-    console.log("Tab selected:", tab);
-    if (tab === "All") {
-      router.push(
-        `/search/${tab === "Images" ? "image" : "web"}?searchTerm=${searchTerm}`
-      );
-    }
+    router.push(
+      `/search/${tab === "Images" ? "image" : "web"}?searchTerm=${searchTerm}`
+    );
   }
+
   return (
     <div className="flex space-x-2 select-none border-b w-full justify-center lg:justify-start text-gray-700 text-sm lg:pl-56">
       <div
